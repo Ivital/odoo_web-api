@@ -76,3 +76,15 @@ msgid ""
 msgstr ""
 "Попередження: виконання може тривати надто довго, якщо кінцева точка "
 "використовує ресурсоємні обчислення."
+
+#. module: endpoint_cache
+#. odoo-python
+#: code:addons/endpoint_cache/models/endpoint_mixin.py:0
+msgid "Cache name must start with 'endpoint_cache'"
+msgstr "Назва кешу має починатися з 'endpoint_cache'"
+
+#. module: endpoint_cache
+#. odoo-python
+#: code:addons/endpoint_cache/models/endpoint_mixin.py:0
+msgid "Cache results"
+msgstr "Кешувати результати"

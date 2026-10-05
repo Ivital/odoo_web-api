@@ -234,3 +234,28 @@ msgstr ""
 #: model:ir.model.fields,help:endpoint.field_endpoint_mixin__route_group
 msgid "Use this to classify routes together"
 msgstr "Використовуйте для групування маршрутів"
+
+#. module: endpoint
+#. odoo-python
+#: code:addons/endpoint/models/endpoint_mixin.py:0
+msgid "'Exec as user' is mandatory for public endpoints."
+msgstr ""
+"«Виконувати як користувач» є обов’язковим для публічних кінцевих точок."
+
+#. module: endpoint
+#. odoo-python
+#: code:addons/endpoint/models/endpoint_mixin.py:0
+msgid "Exec mode is set to `Code`: you must provide a piece of code"
+msgstr "Режим виконання встановлено на `Code`: потрібно надати фрагмент коду"
+
+#. module: endpoint
+#. odoo-python
+#: code:addons/endpoint/models/endpoint_mixin.py:0
+msgid "Missing handler for exec mode %s"
+msgstr "Відсутній обробник для режиму виконання %s"
+
+#. module: endpoint
+#. odoo-python
+#: code:addons/endpoint/models/endpoint_mixin.py:0
+msgid "code_snippet should return a dict into `result` variable."
+msgstr "code_snippet має повертати словник у змінну `result`."

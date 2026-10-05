@@ -155,3 +155,15 @@ msgstr "Інструмент обробника маршруту кінцево�
 #: model:ir.model,name:endpoint_route_handler.model_endpoint_route_sync_mixin
 msgid "Endpoint Route sync mixin"
 msgstr "Міксин синхронного маршруту кінцевої точки"
+
+#. module: endpoint_route_handler
+#. odoo-python
+#: code:addons/endpoint_route_handler/models/endpoint_route_handler.py:0
+msgid "Request content type is required for POST and PUT."
+msgstr "Тип вмісту запиту є обов’язковим для POST і PUT."
+
+#. module: endpoint_route_handler
+#. odoo-python
+#: code:addons/endpoint_route_handler/models/endpoint_route_handler.py:0
+msgid "`%(name)s` uses a blacklisted routed = `%(route)s`"
+msgstr "`%(name)s` використовує маршрут із чорного списку = `%(route)s`"

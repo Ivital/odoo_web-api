@@ -162,3 +162,15 @@ msgstr "сфера дозволу"
 #: model:ir.model.fields,help:webservice.field_webservice_backend__oauth2_token
 msgid "the OAuth2 token (serialized JSON)"
 msgstr "токен OAuth2 (серіалізований JSON)"
+
+#. module: webservice
+#. odoo-python
+#: code:addons/webservice/upgrades/18.0.1.1.1/post-update.py:0
+msgid ""
+"The 'webservice_server_env' module is not available. It is required to "
+"preserve the server environment managed fields of 'webservice.backend'. Make"
+" it available on the addons path before upgrading 'webservice'."
+msgstr ""
+"Модуль 'webservice_server_env' недоступний. Він потрібен для збереження "
+"полів 'webservice.backend', керованих середовищем сервера. Зробіть його "
+"доступним у шляху addons перед оновленням 'webservice'."
