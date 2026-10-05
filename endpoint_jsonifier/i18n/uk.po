@@ -23,3 +23,8 @@ msgstr "Експорт"
 #: model:ir.model.fields,field_description:endpoint_jsonifier.field_endpoint_mixin__exporter_id
 msgid "Exporter"
 msgstr "Експортер"
+
+#. module: endpoint_jsonifier
+#: model:ir.model,name:endpoint_jsonifier.model_endpoint_mixin
+msgid "Endpoint mixin"
+msgstr "Міксин кінцевої точки"

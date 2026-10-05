@@ -27,3 +27,12 @@ msgstr "Бекенд вебсервісу"
 #: model:ir.model.fields,field_description:webservice_server_env.field_webservice_backend__server_env_defaults
 msgid "Server Env Defaults"
 msgstr "Типові значення серверного середовища"
+
+#. module: webservice_server_env
+#: model:ir.model.fields,help:webservice_server_env.field_webservice_backend__tech_name
+msgid ""
+"Unique name for technical purposes. Automatically generated from the name if"
+" left empty."
+msgstr ""
+"Унікальна назва для технічних цілей. Якщо залишити порожнім, генерується "
+"автоматично з назви."

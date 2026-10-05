@@ -102,3 +102,63 @@ msgstr "Метод запиту токена"
 #: model:ir.model.fields.selection,name:webservice.selection__webservice_backend__oauth2_flow__web_application
 msgid "Web Application (Authorization Code Grant)"
 msgstr "Вебзастосунок (Authorization Code Grant)"
+
+#. module: webservice
+#: model:ir.model.fields,help:webservice.field_webservice_backend__oauth2_client_auth_value
+msgid ""
+"Full, static header value sent to the token endpoint when the client "
+"authentication method is a custom Authorization header (e.g. 'SSWS "
+"<token>')."
+msgstr ""
+"Повне статичне значення заголовка, що надсилається до endpoint токена, коли "
+"методом автентифікації клієнта є власний заголовок Authorization (наприклад,"
+" 'SSWS <token>')."
+
+#. module: webservice
+#: model:ir.model.fields,help:webservice.field_webservice_backend__oauth2_token_method
+msgid ""
+"HTTP method used to request the token from the token endpoint. Most "
+"providers use POST; some expose the token endpoint as GET."
+msgstr ""
+"HTTP-метод запиту токена з кінцевої точки. Більшість провайдерів "
+"використовують POST; деякі надають кінцеву точку через GET."
+
+#. module: webservice
+#: model:ir.model.fields,help:webservice.field_webservice_backend__oauth2_client_auth_header
+msgid ""
+"Header name used to send the client credentials when the client "
+"authentication method is a custom Authorization header."
+msgstr ""
+"Назва заголовка для передавання облікових даних клієнта, коли методом "
+"автентифікації є власний заголовок Authorization."
+
+#. module: webservice
+#: model:ir.model.fields,help:webservice.field_webservice_backend__oauth2_client_auth_method
+msgid "How the client credentials are presented to the token endpoint."
+msgstr "Спосіб передавання облікових даних клієнта до кінцевої точки токена."
+
+#. module: webservice
+#: model:ir.model.fields,help:webservice.field_webservice_backend__redirect_url
+msgid "The redirect URL to be used as part of the OAuth2 authorisation flow"
+msgstr ""
+"URL перенаправлення, що використовується як частина потоку авторизації "
+"OAuth2"
+
+#. module: webservice
+#: model:ir.model.fields,help:webservice.field_webservice_backend__oauth2_state
+msgid ""
+"random key generated when authorization flow starts to ensure that no CSRF "
+"attack happen"
+msgstr ""
+"випадковий ключ, створений на початку потоку авторизації для запобігання "
+"CSRF-атакам"
+
+#. module: webservice
+#: model:ir.model.fields,help:webservice.field_webservice_backend__oauth2_scope
+msgid "scope of the the authorization"
+msgstr "сфера дозволу"
+
+#. module: webservice
+#: model:ir.model.fields,help:webservice.field_webservice_backend__oauth2_token
+msgid "the OAuth2 token (serialized JSON)"
+msgstr "токен OAuth2 (серіалізований JSON)"

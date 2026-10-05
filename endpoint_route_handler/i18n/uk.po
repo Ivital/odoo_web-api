@@ -140,3 +140,18 @@ msgstr "Використовуйте для групування маршрут�
 #: model:ir.model.constraint,message:endpoint_route_handler.constraint_endpoint_route_handler_tool_endpoint_route_unique
 msgid "You can register an endpoint route only once."
 msgstr "Маршрут кінцевої точки можна зареєструвати лише один раз."
+
+#. module: endpoint_route_handler
+#: model:ir.model,name:endpoint_route_handler.model_endpoint_route_handler
+msgid "Endpoint Route handler"
+msgstr "Обробник маршруту кінцевої точки"
+
+#. module: endpoint_route_handler
+#: model:ir.model,name:endpoint_route_handler.model_endpoint_route_handler_tool
+msgid "Endpoint Route handler tool"
+msgstr "Інструмент обробника маршруту кінцевої точки"
+
+#. module: endpoint_route_handler
+#: model:ir.model,name:endpoint_route_handler.model_endpoint_route_sync_mixin
+msgid "Endpoint Route sync mixin"
+msgstr "Міксин синхронного маршруту кінцевої точки"

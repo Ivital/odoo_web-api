@@ -139,3 +139,18 @@ msgstr "Ім'я користувача та пароль"
 #: model:ir.model.constraint,message:webservice_core.constraint_webservice_request_mixin_tech_name_uniq
 msgid "`tech_name` must be unique!"
 msgstr "`tech_name` має бути унікальним!"
+
+#. module: webservice_core
+#: model:ir.model.fields,help:webservice_core.field_webservice_backend__tech_name
+#: model:ir.model.fields,help:webservice_core.field_webservice_request_mixin__tech_name
+msgid ""
+"Unique name for technical purposes. Automatically generated from the name if"
+" left empty."
+msgstr ""
+"Унікальна назва для технічних цілей. Якщо залишити порожнім, генерується "
+"автоматично з назви."
+
+#. module: webservice_core
+#: model:ir.model,name:webservice_core.model_webservice_request_mixin
+msgid "Webservice Request Mixin"
+msgstr "Міксин запиту вебсервісу"
