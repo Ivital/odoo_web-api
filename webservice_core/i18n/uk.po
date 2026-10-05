@@ -99,3 +99,37 @@ msgstr "Ім’я користувача"
 #: model:ir.ui.menu,name:webservice_core.webservice_backend_menu
 msgid "WebService Backend"
 msgstr "Бекенд вебсервісу"
+
+#. module: webservice_core
+#: model:ir.model.fields,field_description:webservice_core.field_webservice_backend__api_key_header
+#: model:ir.model.fields,field_description:webservice_core.field_webservice_request_mixin__api_key_header
+msgid "API Key header"
+msgstr "Заголовок ключа API"
+
+#. module: webservice_core
+#: model:ir.model.fields.selection,name:webservice_core.selection__webservice_backend__content_type__application/x-www-form-urlencoded
+#: model:ir.model.fields.selection,name:webservice_core.selection__webservice_request_mixin__content_type__application/x-www-form-urlencoded
+msgid "Form"
+msgstr "Форма"
+
+#. module: webservice_core
+#: model:ir.model.fields.selection,name:webservice_core.selection__webservice_backend__protocol__http
+#: model:ir.model.fields.selection,name:webservice_core.selection__webservice_request_mixin__protocol__http
+msgid "HTTP Request"
+msgstr "HTTP-запит"
+
+#. module: webservice_core
+#: model:ir.model.fields,field_description:webservice_core.field_webservice_backend__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: webservice_core
+#: model:ir.model.fields,field_description:webservice_core.field_webservice_backend__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: webservice_core
+#: model:ir.model.fields.selection,name:webservice_core.selection__webservice_backend__auth_type__user_pwd
+#: model:ir.model.fields.selection,name:webservice_core.selection__webservice_request_mixin__auth_type__user_pwd
+msgid "Username & password"
+msgstr "Ім'я користувача та пароль"

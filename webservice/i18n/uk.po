@@ -32,3 +32,33 @@ msgstr "Потік OAuth2"
 #: model:ir.model.fields,field_description:webservice.field_webservice_backend__oauth2_token_url
 msgid "Token URL"
 msgstr "URL токена"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__oauth2_client_secret
+msgid "Client Secret"
+msgstr "Секрет клієнта"
+
+#. module: webservice
+#: model_terms:ir.ui.view,arch_db:webservice.webservice_backend_form_view
+msgid "OAuth Authorize"
+msgstr "Авторизація OAuth"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__oauth2_scope
+msgid "Oauth2 Scope"
+msgstr "Область OAuth2"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__oauth2_state
+msgid "Oauth2 State"
+msgstr "Стан OAuth2"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__oauth2_token
+msgid "Oauth2 Token"
+msgstr "Токен OAuth2"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__redirect_url
+msgid "Redirect Url"
+msgstr "URL перенаправлення"

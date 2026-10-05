@@ -70,3 +70,38 @@ msgstr "Група маршрутів"
 #: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler_tool__route_type
 msgid "Route Type"
 msgstr "Тип маршруту"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__endpoint_hash
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler_tool__endpoint_hash
+msgid "Endpoint Hash"
+msgstr "Хеш кінцевої точки"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler_tool__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler_tool__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__registry_sync
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler_tool__registry_sync
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_sync_mixin__registry_sync
+msgid "Registry Sync"
+msgstr "Синхронізація реєстру"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__request_content_type
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler_tool__request_content_type
+msgid "Request Content Type"
+msgstr "Тип вмісту запиту"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__request_method
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler_tool__request_method
+msgid "Request Method"
+msgstr "Метод запиту"

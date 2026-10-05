@@ -30,3 +30,35 @@ msgstr "Кількість у кеші"
 #: model:ir.model.fields.selection,name:endpoint_cache.selection__endpoint_mixin__cache_policy__day
 msgid "Daily"
 msgstr "Щоденно"
+
+#. module: endpoint_cache
+#: model_terms:ir.ui.view,arch_db:endpoint_cache.endpoint_mixin_form_view
+msgid "Cache"
+msgstr "Кеш"
+
+#. module: endpoint_cache
+#: model:ir.model.fields.selection,name:endpoint_cache.selection__endpoint_endpoint__cache_policy__month
+#: model:ir.model.fields.selection,name:endpoint_cache.selection__endpoint_mixin__cache_policy__month
+msgid "Monthly"
+msgstr "Щомісяця"
+
+#. module: endpoint_cache
+#: model_terms:ir.ui.view,arch_db:endpoint_cache.endpoint_mixin_form_view
+msgid "Pre-heat cache"
+msgstr "Попередньо прогріти кеш"
+
+#. module: endpoint_cache
+#: model_terms:ir.ui.view,arch_db:endpoint_cache.endpoint_mixin_form_view
+msgid "Purge caches"
+msgstr "Очистити кеші"
+
+#. module: endpoint_cache
+#: model_terms:ir.ui.view,arch_db:endpoint_cache.endpoint_mixin_form_view
+msgid "View caches"
+msgstr "Переглянути кеші"
+
+#. module: endpoint_cache
+#: model:ir.model.fields.selection,name:endpoint_cache.selection__endpoint_endpoint__cache_policy__week
+#: model:ir.model.fields.selection,name:endpoint_cache.selection__endpoint_mixin__cache_policy__week
+msgid "Weekly"
+msgstr "Щотижня"

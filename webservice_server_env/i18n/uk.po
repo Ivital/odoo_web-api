@@ -22,3 +22,8 @@ msgstr "Технічна назва"
 #: model:ir.model,name:webservice_server_env.model_webservice_backend
 msgid "WebService Backend"
 msgstr "Бекенд вебсервісу"
+
+#. module: webservice_server_env
+#: model:ir.model.fields,field_description:webservice_server_env.field_webservice_backend__server_env_defaults
+msgid "Server Env Defaults"
+msgstr "Типові значення серверного середовища"

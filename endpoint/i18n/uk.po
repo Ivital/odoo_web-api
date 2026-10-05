@@ -125,3 +125,86 @@ msgstr "Група маршрутів"
 #: model:ir.model.fields,field_description:endpoint.field_endpoint_mixin__route_type
 msgid "Route Type"
 msgstr "Тип маршруту"
+
+#. module: endpoint
+#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_mixin_form_view
+msgid "Auth"
+msgstr "Автентифікація"
+
+#. module: endpoint
+#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_mixin_form_view
+msgid "Code Help"
+msgstr "Довідка з коду"
+
+#. module: endpoint
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_endpoint__code_snippet_docs
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_mixin__code_snippet_docs
+msgid "Code Snippet Docs"
+msgstr "Документація фрагмента коду"
+
+#. module: endpoint
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_endpoint__endpoint_hash
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_mixin__endpoint_hash
+msgid "Endpoint Hash"
+msgstr "Хеш кінцевої точки"
+
+#. module: endpoint
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_endpoint__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: endpoint
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_endpoint__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: endpoint
+#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_mixin_form_view
+msgid "Main"
+msgstr "Основний"
+
+#. module: endpoint
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_endpoint__registry_sync
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_mixin__registry_sync
+msgid "Registry Sync"
+msgstr "Синхронізація реєстру"
+
+#. module: endpoint
+#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_mixin_form_view
+msgid ""
+"Registry out of sync. Likely the record has been modified but not sync'ed "
+"with the routing registry."
+msgstr ""
+"Реєстр не синхронізований. Ймовірно, запис змінено, але не синхронізовано з "
+"реєстром маршрутизації."
+
+#. module: endpoint
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_endpoint__request_content_type
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_mixin__request_content_type
+msgid "Request Content Type"
+msgstr "Тип вмісту запиту"
+
+#. module: endpoint
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_endpoint__request_method
+#: model:ir.model.fields,field_description:endpoint.field_endpoint_mixin__request_method
+msgid "Request Method"
+msgstr "Метод запиту"
+
+#. module: endpoint
+#: model:ir.actions.server,name:endpoint.server_action_registry_sync
+msgid "Sync registry"
+msgstr "Синхронізувати реєстр"
+
+#. module: endpoint
+#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_mixin_search_view
+msgid "To sync"
+msgstr "До синхронізації"
+
+#. module: endpoint
+#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_mixin_form_view
+msgid ""
+"Use the action \"Sync registry\" to make changes effective once you are done"
+" with edits and creates."
+msgstr ""
+"Скористайтеся дією «Синхронізувати реєстр», щоб застосувати зміни після "
+"завершення редагування та створення."
