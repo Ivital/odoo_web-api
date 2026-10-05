@@ -62,3 +62,43 @@ msgstr "Токен OAuth2"
 #: model:ir.model.fields,field_description:webservice.field_webservice_backend__redirect_url
 msgid "Redirect Url"
 msgstr "URL перенаправлення"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__oauth2_authorization_url
+msgid "Authorization URL"
+msgstr "URL авторизації"
+
+#. module: webservice
+#: model:ir.model.fields.selection,name:webservice.selection__webservice_backend__oauth2_flow__backend_application
+msgid "Backend Application (Client Credentials Grant)"
+msgstr "Backend-застосунок (Client Credentials Grant)"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__oauth2_client_auth_header
+msgid "Client Auth Header"
+msgstr "Заголовок автентифікації клієнта"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__oauth2_client_auth_method
+msgid "Client Authentication"
+msgstr "Автентифікація клієнта"
+
+#. module: webservice
+#: model:ir.model.fields.selection,name:webservice.selection__webservice_backend__oauth2_client_auth_method__client_secret_basic
+msgid "Client ID & Secret (HTTP Basic)"
+msgstr "Client ID і Secret (HTTP Basic)"
+
+#. module: webservice
+#: model:ir.model.fields.selection,name:webservice.selection__webservice_backend__oauth2_client_auth_method__custom_header
+msgid "Custom Authorization header"
+msgstr "Користувацький заголовок авторизації"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__oauth2_token_method
+msgid "Token Request Method"
+msgstr "Метод запиту токена"
+
+#. module: webservice
+#: model:ir.model.fields.selection,name:webservice.selection__webservice_backend__oauth2_flow__web_application
+msgid "Web Application (Authorization Code Grant)"
+msgstr "Вебзастосунок (Authorization Code Grant)"

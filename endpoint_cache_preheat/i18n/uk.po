@@ -24,3 +24,32 @@ msgstr "Автоматичний попередній прогрів кешу"
 #: model:ir.model.fields,field_description:endpoint_cache_preheat.field_endpoint_mixin__cache_preheat_ts
 msgid "Last pre-heat on"
 msgstr "Останній попередній нагрів"
+
+#. module: endpoint_cache_preheat
+#: model_terms:ir.ui.view,arch_db:endpoint_cache_preheat.endpoint_mixin_form_view
+msgid ""
+"A job will be created to pre-heat the cache. You can check the status of the"
+" job in the Jobs menu."
+msgstr ""
+"Буде створено завдання для попереднього прогрівання кешу. Його стан можна "
+"перевірити в меню «Завдання»."
+
+#. module: endpoint_cache_preheat
+#: model:ir.actions.server,name:endpoint_cache_preheat.cron_endpoint_cache_preheat_ir_actions_server
+msgid "Endpoint cache pre-heat"
+msgstr "Попередній прогрів кешу endpoint"
+
+#. module: endpoint_cache_preheat
+#: model_terms:ir.ui.view,arch_db:endpoint_cache_preheat.endpoint_mixin_form_view
+msgid "Force cache pre-heat (async)"
+msgstr "Примусовий попередній прогрів кешу (async)"
+
+#. module: endpoint_cache_preheat
+#: model:ir.model.fields,help:endpoint_cache_preheat.field_endpoint_endpoint__cache_preheat
+#: model:ir.model.fields,help:endpoint_cache_preheat.field_endpoint_mixin__cache_preheat
+msgid ""
+"If checked, cache will be pre-heated by a cron according to the selected "
+"policy. Cache generation will be done in a queue job."
+msgstr ""
+"Якщо позначено, кеш попередньо прогріватиметься cron-завданням відповідно до"
+" вибраної політики. Створення кешу виконуватиметься як завдання в черзі."

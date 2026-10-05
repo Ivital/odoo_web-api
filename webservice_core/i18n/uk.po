@@ -133,3 +133,9 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields.selection,name:webservice_core.selection__webservice_request_mixin__auth_type__user_pwd
 msgid "Username & password"
 msgstr "Ім'я користувача та пароль"
+
+#. module: webservice_core
+#: model:ir.model.constraint,message:webservice_core.constraint_webservice_backend_tech_name_uniq
+#: model:ir.model.constraint,message:webservice_core.constraint_webservice_request_mixin_tech_name_uniq
+msgid "`tech_name` must be unique!"
+msgstr "`tech_name` має бути унікальним!"

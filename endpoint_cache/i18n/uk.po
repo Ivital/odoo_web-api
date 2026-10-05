@@ -62,3 +62,17 @@ msgstr "Переглянути кеші"
 #: model:ir.model.fields.selection,name:endpoint_cache.selection__endpoint_mixin__cache_policy__week
 msgid "Weekly"
 msgstr "Щотижня"
+
+#. module: endpoint_cache
+#: model_terms:ir.ui.view,arch_db:endpoint_cache.endpoint_mixin_form_view
+msgid "Cache usage example"
+msgstr "Приклад використання кешу"
+
+#. module: endpoint_cache
+#: model_terms:ir.ui.view,arch_db:endpoint_cache.endpoint_mixin_form_view
+msgid ""
+"Warning: this might take too long to complete if the endpoint uses expensive"
+" computations."
+msgstr ""
+"Попередження: виконання може тривати надто довго, якщо кінцева точка "
+"використовує ресурсоємні обчислення."
